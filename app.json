@@ -1,0 +1,46 @@
+{
+    "name": "bb",
+    "description": "A similar buy/sell tracker for erc20 and bep20 tokens",
+    "keywords": [
+        "price tracker",
+        "bep20 tracker",
+        "token tracker",
+        "eth tracker",
+        "bep2 tracker"
+    ],
+    "repository": "https://github.com/thedeveloper12/Token-Buy-Tracker-TelegramBot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Telegram Bot Token",
+            "value": ""
+        },
+        "API_KEY": {
+            "description": "Telegram Api Key",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Telegram Api Hash",
+            "value": ""
+        },
+       "CHANNEL": {
+           "description": "Channel Url (https://t.me/channelname)",
+           "value": ""
+       },
+        "CONTRACT": {
+            "description": "Token Contract Address",
+            "value": ""
+        },
+        "PANCAKESWAP_ADDRESS": {
+            "description": "Pancake Swap address of token (Can be found in token holders list)",
+            "value": ""
+        },
+        "CHAIN":{
+            "description":"Token Network Cahin (bsc,eth)",
+            "value": ""
+        },
+        "UNMARSHAL_API_KEY":{
+           "description": "Unmarshal Api key (https://console.unmarshal.io/)",
+            "value": ""
+        }
+    }
+}
